@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Central Plaza Hotel My Tho - Guest Directory</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #800020; /* đỏ đô */
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    .container {
+      padding: 20px;
+    }
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #800020;
+    }
+    a {
+      color: #800020;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .lang {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Central Plaza Hotel My Tho</h1>
+    <p>Guest Service Directory / Thông tin dịch vụ khách hàng</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Breakfast -->
+    <div class="card">
+      <h2><i class="fas fa-utensils"></i> Breakfast / Ăn sáng</h2>
+      <p class="lang">Weekdays: 06:00 - 09:30<br>Thứ 2 - Thứ 6: 06:00 - 09:30</p>
+      <p class="lang">Weekend: until 10:00<br>Thứ 7 & Chủ nhật: đến 10:00</p>
+      <p class="lang">Location: 8th Floor<br>Địa điểm: Tầng 8</p>
+    </div>
+
+    <!-- Dining -->
+    <div class="card">
+      <h2><i class="fas fa-concierge-bell"></i> Dining / Ẩm thực</h2>
+      <p><a href="https://drive.google.com/file/d/1Y7aXE5dtM1iXB5a3_TQLiAv-or3TBgtM/view" target="_blank">All Day Dining Menu</a><br>
+      <a href="https://drive.google.com/file/d/1c077cF4XMOgYNwFVcju2FFcgQjuwkg3X/view?usp=sharing" target="_blank">Room Service Menu</a><br><br>
+      <a href="https://drive.google.com/file/d/1Y7aXE5dtM1iXB5a3_TQLiAv-or3TBgtM/view" target="_blank">Thực đơn nhà hàng</a><br>
+      <a href="https://drive.google.com/file/d/1c077cF4XMOgYNwFVcju2FFcgQjuwkg3X/view?usp=sharing" target="_blank">Thực đơn phục vụ tại phòng</a></p>
+
+    </div>
+
+    <!-- Spa -->
+    <div class="card">
+      <h2><i class="fas fa-spa"></i> Spa</h2>
+      <p class="lang">Spa Menu - <a href="https://drive.google.com/file/d/1dr5tUFKxaCi4r8RI05HsdgErSkxJovEL/view?usp=sharing" target="_blank">View Menu</a></p>
+      <p class="lang">Dịch vụ Spa - <a href="https://drive.google.com/file/d/1dr5tUFKxaCi4r8RI05HsdgErSkxJovEL/view?usp=sharing" target="_blank">Xem Thực đơn</a></p>
+    </div>
+
+    <!-- Swimming Pool -->
+    <div class="card">
+      <h2><i class="fas fa-swimming-pool"></i> Swimming Pool / Hồ bơi</h2>
+      <p class="lang">Opening hours: 06:00 - 18:00<br>Giờ mở cửa: 06:00 - 18:00</p>
+    </div>
+
+    <!-- Gym -->
+    <div class="card">
+      <h2><i class="fas fa-dumbbell"></i> Gym / Phòng tập</h2>
+     <p>Ready soon<br>
+    <em>The gym is under preparation and will be available soon.</em></p>
+    <p>Sắp mở cửa<br>
+    <em>Phòng Gym đang chuẩn bị và sẽ sớm đưa vào hoạt động.</em></p>
+    </div>
+
+    <!-- Contact -->
+    <div class="card">
+      <h2><i class="fas fa-phone"></i> Contact / Liên hệ</h2>
+      <p class="lang">Phone: +84 273 393 3839<br>Điện thoại: +84 273 393 3839</p>
+      <p class="lang">Email: <a href="mailto:info@centralplazahotel.vn">info@centralplazahotel.vn</a></p>
+      <p class="lang">Address: 15B -19 Ba Muoi Thang Tu Street, My Tho Ward, Dong Thap Province, Viet Nam<br>Địa chỉ: 15B -19 Đường Ba Mươi Tháng Tư, Phường Mỹ Tho, Tỉnh Đồng Tháp, Việt Nam</p>
+      <p class="lang">Google Maps: <a href="https://maps.app.goo.gl/2JbBiD373x74VsTn6" target="_blank">View Map</a><br>Bản đồ: <a href="https://maps.app.goo.gl/2JbBiD373x74VsTn6" target="_blank">Xem bản đồ</a></p>
+    </div>
+
+  </div>
+</body>
+</html>
